@@ -1,5 +1,4 @@
 import streamlit as st
-st.image("ley-de-los-gases-ideales-768x432-1.png")
 # Constante universal de los gases
 R = 0.0821  # L·atm/mol·K
 
@@ -43,3 +42,4 @@ elif opcion == "Número de moles (n)":
     if st.button("Calcular Número de moles"):
         n = (P * V) / (R * T)
         st.success(f"El número de moles es: {n:.3f} mol")
+st.image("ley-de-los-gases-ideales-768x432-1.png")
