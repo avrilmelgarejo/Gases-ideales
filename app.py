@@ -1,10 +1,10 @@
 import streamlit as st
+st.image("ley-de-los-gases-ideales-768x432-1.png")
 # Constante universal de los gases
 R = 0.0821  # L·atm/mol·K
 
 st.title("Calculadora de la Ecuación de Gases Ideales")
 st.write("Usa la ecuación PV = nRT para resolver una variable faltante.")
-st.image("ley-de-los-gases-ideales-768x432-1.png")
 
 # Selección de la variable a calcular
 opcion = st.selectbox(
