@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.image("images")
 # Constante universal de los gases
 R = 0.0821  # L·atm/mol·K
 
