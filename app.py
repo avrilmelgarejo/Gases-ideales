@@ -4,6 +4,7 @@ R = 0.0821  # L·atm/mol·K
 
 st.title("Calculadora de la Ecuación de Gases Ideales")
 st.write("Usa la ecuación PV = nRT para resolver una variable faltante.")
+st.image("ley-de-los-gases-ideales-768x432-1.png")
 
 # Selección de la variable a calcular
 opcion = st.selectbox(
@@ -42,4 +43,3 @@ elif opcion == "Número de moles (n)":
     if st.button("Calcular Número de moles"):
         n = (P * V) / (R * T)
         st.success(f"El número de moles es: {n:.3f} mol")
-st.image("ley-de-los-gases-ideales-768x432-1.png")
